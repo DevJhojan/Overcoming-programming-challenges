@@ -27,9 +27,9 @@ public class tableroAjedrez {
         return number;
     }
     public static void buggerProofOne(){
-        System.out.println(0 + " = "+proofOne(new String[]{"........","........","........","........","........","........","........","........"}) );
-        System.out.println(32 + " = "+proofOne(new String[]{"FFFFFFFF","FFFFFFFF","FFFFFFFF","FFFFFFFF","FFFFFFFF","FFFFFFFF","FFFFFFFF","FFFFFFFF"}));
+        System.out.println(0 + " = "+ proofOne(new String[]{"........","........","........","........","........","........","........","........"}) );
+        System.out.println(32+ " = "+ proofOne(new String[]{"FFFFFFFF","FFFFFFFF","FFFFFFFF","FFFFFFFF","FFFFFFFF","FFFFFFFF","FFFFFFFF","FFFFFFFF"}));
         System.out.println(2 + " = "+ proofOne(new String[]{"..F..F..","F..F..F.","..F..F..",".F..F..F","..F..F..","F.F....F",".F......","..F....."}));
-        System.out.println(1 +" = " + proofOne(new String[]{"..F..F..","F..F..F.","..F..F..",".F..F..F","..F..F..","F.F....F",".F...F..","..F...F."}));
+        System.out.println(1 + " = "+ proofOne(new String[]{"..F..F..","F..F..F.","..F..F..",".F..F..F","..F..F..","F.F....F",".F...F..","..F...F."}));
     }
 }
